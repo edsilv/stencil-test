@@ -14,6 +14,7 @@ export namespace Components {
     * The first name
     */
     'first': string;
+    'getText': () => Promise<string>;
     /**
     * The last name
     */
